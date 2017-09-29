@@ -20,8 +20,8 @@
 		// set filename for file to be saved
 		header('Content-disposition: attachment;filename='.$filename.$_POST['ext']);
 		// echo file contents
-		echo $_POST['text'].$mime;
-		// prevent the html szuff below to be written into the file by exiting
+		echo $_POST['text'];
+		// prevent the html stuff below to be written into the file by exiting
 		exit;
 	}
 ?>
