@@ -25,15 +25,14 @@
 		exit;
 	}
 ?>
-
 <!doctype HTML>
 <html>
 	<head> 
 		<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<!-- css: reset -->
-    	<link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
-    	<!-- css: style -->
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<!-- css: reset -->
+    		<link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+    		<!-- css: style -->
 		<link rel="stylesheet" href="assets/css/style-<?php echo $scheme; ?>.css" type="text/css" />
 		<title>DistLess</title>
 	</head>
