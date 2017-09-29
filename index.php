@@ -3,7 +3,7 @@
 	$scheme = 'dark';
 	// check whether Save button was hit
 	if (isset($_POST['submit'])) {
-		// setting correnct mime type for chosen extension
+		// setting correct mime type for chosen extension
 		if ($_POST['ext'] == '.md'){
 			$mime = "markdown";
 		} else {
