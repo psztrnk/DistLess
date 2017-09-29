@@ -41,7 +41,7 @@
 	<body>
 		<!-- help tooltip -->
 		<div class="tooltip">?
-  			<span class="tooltiptext">Hit F11 to go fullscreen</span>
+  			<span class="tooltiptext">Hit F11 to toggle fullscreen</span>
 		</div> 
 		<main class="main" role="main">
 			<form method="post" action="" class="distless">
